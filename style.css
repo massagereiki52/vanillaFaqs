@@ -1,37 +1,41 @@
 body {
-  background-color: #555;
+  background: linear-gradient(to top, #ffff66 10%, #ff99ff 94%,#9933ff);
   position: relative;
 }
 
-* {
-  border: 1px solid red;
-}
-
 h1 {
-  color: rgb(159, 13, 153);
+  text-align: center;
+  color: white;
+  font-size: 80px;
 }
 
 h2 {
   padding: 0 0 0 60px;
   cursor: pointer;
   height: 40px;
-  color: rgb(155, 233, 233);
-  background: url('http://place-puppy.com/40x40') no-repeat;
+  color: white;
+  background: url('./flower.png') no-repeat;
 }
 
 section {
-  margin: 10px;
+  margin: 5px;
   padding: 10px;
-  background-color: #999;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.h1 {
+  background-color: black;
+  padding: inherit;
 }
 
 .close {
-  background: url('http://placekitten.com/40/40') no-repeat;
+  background: url('./cross.jpg') no-repeat;
 }
 
 .answer {
-  background-color: rgb(244, 83, 232);
-  text: #000;
+  background-color: #404040;
+  color: white;
   overflow: hidden;
   transition: all 0.3s ease-in;
 }
