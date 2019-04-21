@@ -1,5 +1,6 @@
 body {
-  background: linear-gradient(to top, #ffff66 10%, #ff99ff 94%,#9933ff);
+  background-image: url(./backgroundImage1.png);
+  /*background: linear-gradient(to top, #ffff66 10%, #ff99ff 94%,#9933ff);*/
   position: relative;
 }
 
