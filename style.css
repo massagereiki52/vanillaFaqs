@@ -1,5 +1,5 @@
 body {
-  background-image: url(./backgroundImage1.png);
+  background-image: url(backgroundImage1.png);
   /*background: linear-gradient(to top, #ffff66 10%, #ff99ff 94%,#9933ff);*/
   position: relative;
 }
@@ -8,7 +8,7 @@ h1 {
   text-align: center;
   color: white;
   font-size: 80px;
-  
+
 }
 
 h2 {
